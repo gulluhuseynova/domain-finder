@@ -1,15 +1,11 @@
 @import "bootstrap";
 
-.header-logo {
-    padding-left: 150px;
-}
-.header-links-style {
-    padding-right: 100px;
-}
+
 .nav-style {
     background-color: #52ab84;
     height: 100px;
 }
+
 
 .navbar-expand {
     position: fixed;
@@ -26,8 +22,14 @@
     }
 }
 
+
 @include media-breakpoint-up(sm) {
     .mobile-only {
         display: none;
     }
 }
+
+
+
+
+

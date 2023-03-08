@@ -5,15 +5,11 @@ $green: #04cba0;
 $green-dark: #01ac88;
 $white: white;
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
 
 html {
   font-size: 62.5%;
 }
+
 
 body {
   font-family: "Lato", sans-serif;
@@ -21,9 +17,11 @@ body {
   color: $blue;
 }
 
+
 a {
   text-decoration: none;
 }
+
 
 .center {
   height: 100%;
@@ -33,6 +31,7 @@ a {
   flex-direction: column;
 }
 
+
 .error {
   display: flex;
   flex-direction: row;
@@ -40,17 +39,20 @@ a {
   align-content: center;
 }
 
+
 .number {
   font-weight: 900;
   font-size: 15rem;
   line-height: 1;
 }
 
+
 .illustration {
   position: relative;
   width: 12.2rem;
   margin: 0 2.1rem;
 }
+
 
 .circle {
   position: absolute;
@@ -61,6 +63,7 @@ a {
   border-radius: 50%;
   background-color: $blue;
 }
+
 
 .clip {
   position: absolute;
@@ -73,6 +76,7 @@ a {
   border-radius: 0 0 50% 50%;
 }
 
+
 .paper {
   position: absolute;
   bottom: -0.3rem;
@@ -83,7 +87,7 @@ a {
   border: 0.3rem solid $blue;
   background-color: $white;
   border-radius: 0.8rem;
-  
+ 
   &::before {
     content: "";
     position: absolute;
@@ -97,10 +101,12 @@ a {
   }
 }
 
+
 .face {
   position: relative;
   margin-top: 2.3rem;
 }
+
 
 .eyes {
   position: absolute;
@@ -109,6 +115,7 @@ a {
   width: 4.6rem;
   height: 0.8rem;
 }
+
 
 .eye {
   position: absolute;
@@ -121,15 +128,17 @@ a {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  
+ 
   &-left {
     left: 0;
   }
+
 
   &-right {
     right: 0;
   }
 }
+
 
 @keyframes eye {
   0% {
@@ -149,6 +158,7 @@ a {
   }
 }
 
+
 .rosyCheeks {
   position: absolute;
   top: 1.6rem;
@@ -156,15 +166,17 @@ a {
   height: 0.2rem;
   border-radius: 50%;
   background-color: $pink;
-  
+ 
   &-left {
     left: 1.4rem;
   }
+
 
   &-right {
     right: 1.4rem;
   }
 }
+
 
 .mouth {
   position: absolute;
@@ -177,22 +189,25 @@ a {
   background-color: $blue;
 }
 
+
 .text {
   margin-top: 5rem;
   font-weight: 300;
   color: $blue;
 }
 
+
 .button {
   margin-top: 4rem;
   padding: 1.2rem 3rem;
   color: $white;
   background-color: $green;
-  
+ 
   &:hover {
     background-color: $green-dark;
   }
 }
+
 
 .by {
   position: absolute;
@@ -202,6 +217,10 @@ a {
   color: $blue;
 }
 
+
 .byLink {
   color: $green;
 }
+
+
+

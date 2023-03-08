@@ -4,8 +4,6 @@
     font-size: 34px;
 }
 .main-input-section {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     height: 100vh;
     justify-content: center;
@@ -19,26 +17,28 @@
 .resources-btn {
     background: white;
     color: #222930;
-    border: 2px solid #52ab84;
+    border: 2px solid #52ab84 !important;
     font-family: "Inter", sans-serif;
+
+
     &:hover {
         background: white;
         color: #222930;
         border: 2px solid #52ab84;
     }
 }
-.search-bar {
-    max-width: 100%;
-    display: flex;
-}
+
 
 .form-control {
     border: 2px solid #52ab84;
 }
 
+
 .main-girl-section {
     margin-bottom: 100px;
     display: flex;
+    justify-content: center;
+
 
     .first-text-left {
         margin-bottom: 20px;
@@ -51,6 +51,7 @@
     }
 }
 
+
 .top-search {
     align-self: center;
     color: #222930;
@@ -59,6 +60,7 @@
     font-size: 10px;
 }
 
+
 .dropdown-label {
     margin: 20px 10px 10px 10px;
     font-size: 14px;
@@ -66,16 +68,19 @@
     font-weight: 500;
 }
 
+
 .fg--search {
     background: white;
     position: relative;
     width: 500px;
 }
 
+
 .fg--search input {
     width: 100%;
     display: block;
 }
+
 
 .fg--search button {
     background: transparent;
@@ -90,9 +95,11 @@
     z-index: 2;
 }
 
+
 .fg--search input:focus + button .fa-search {
     color: green;
 }
+
 
 // @media only screen and (max-width: 770px) {
 //     .main-girl {
@@ -103,9 +110,11 @@
 //     }
 // }
 
+
 .home-pa {
     justify-content: center;
 }
+
 
 .girl-section-arrows {
     display: flex;
@@ -118,15 +127,17 @@
         flex-direction: column;
     }
 }
+.input-dropdown-sec {
+    justify-content: center;
+}
 @media only screen and (max-width: 770px) {
     .input-dropdown-sec {
         width: 80%;
         flex-wrap: nowrap;
     }
 }
-@media only screen and (max-width: 700px) {
-    .input-dropdown-sec {
-        width: 80%;
-        flex-wrap: nowrap;
-    }
-}
+
+
+
+
+

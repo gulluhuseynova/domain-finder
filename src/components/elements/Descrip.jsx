@@ -1,8 +1,9 @@
-import Image from "../../assets/img/Image";
+import images from "../../assets/img";
+
 
 const Description = () => {
     return (
-        <div className="container text-center main-girl-section">
+        <div className="text-center main-girl-section">
             <div className="row home-pa">
                 <div className="col-12 col-md-8" style={{alignSelf:"center"}}>
                     <h3 className="row text-left first-text-left">
@@ -14,34 +15,43 @@ const Description = () => {
                     </div>
                     <div className="row girl-section-arrows">
                         <div className="col ">
-                            <img src={Image.first} />
+                            <img src={images.first} />
                         </div>
                         <div className="col ">Type to search</div>
 
-                        <div className="col ">
-                            <img src={Image.arrow} />
-                        </div>
 
                         <div className="col ">
-                            <img src={Image.second} />
+                            <img src={images.arrow} />
+                        </div>
+
+
+                        <div className="col ">
+                            <img src={images.second} />
                         </div>
                         <div className="col ">Find domains</div>
 
-                        <div className="col ">
-                            <img src={Image.arrow}></img>
-                        </div>
 
                         <div className="col ">
-                            <img src={Image.third} />
+                            <img src={images.arrow}></img>
+                        </div>
+
+
+                        <div className="col ">
+                            <img src={images.third} />
                         </div>
                         <div className="col ">Filter them</div>
                     </div>
                 </div>
                 <div className="col-6 col-md-4 ">
-                    <img className="main-girl" src={Image.mainimg}></img>
+                    <img className="main-girl" src={images.mainimg}></img>
                 </div>
             </div>
         </div>
     );
 };
 export default Description;
+
+
+
+
+

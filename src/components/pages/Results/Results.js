@@ -1,14 +1,12 @@
 import Filter from "../../elements/Filter";
 import ResultList from "../../elements/ResultList";
 import SearchBar from "../../elements/SearchBar";
+
 const Results = () => {
     return (
-        <div className="container p-5">
+        <div className="container">
             <div className="row">
-                <div
-                    className="col-12 shadow p-3 mb-5 bg-white rounded"
-                    style={{ position: "absolute", left: "23%", top: "80px", maxWidth: "600px" }}
-                >
+                <div className="col-auto shadow p-3 bg-white rounded mx-auto" style={{ marginTop: "-20px" }}>
                     <SearchBar />
                 </div>
             </div>

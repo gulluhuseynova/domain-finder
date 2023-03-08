@@ -1,21 +1,22 @@
 import React from "react";
-import Image from "../../assets/img/Image";
+import images from "../../assets/img";
 import { Link } from "react-router-dom";
 import "../../assets/scss/ResultItem.scss";
 const ResultItem = (props) => {
     let { name, url, title, description, tags, id } = props;
 
+
     return (
         <div className="card mb-5">
             <div className="row container mt-4">
                 <div className="col card-first-logo">
-                    <img src={Image.resultIcon} width="25px" height="25px" />
+                    <img src={images.resultIcon} width="25px" height="25px" />
                 </div>
                 <div className="col-lg-8 card-name">
                     <div>{name}</div>
                 </div>
                 <div className="col card-icon">
-                    <img src={Image.cardIcon} />
+                    <img src={images.cardIcon} />
                 </div>
                 <div className="col">
                     <div className="card-rating-num">3.5</div>
@@ -30,10 +31,12 @@ const ResultItem = (props) => {
                 </a>
             </div>
 
+
             <Link to={`/results/${id}`}>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
                     <p className="card-text">{description}</p>
+
 
                     <div>
                         {tags.map((tag, index) => (
@@ -48,4 +51,10 @@ const ResultItem = (props) => {
     );
 };
 
+
 export default ResultItem;
+
+
+
+
+

@@ -1,0 +1,49 @@
+@mixin card-style {
+    font-weight: 600;
+    color: #52ab84;
+    font-family: "Inter";
+}
+@mixin grey-lines {
+    color: #8e8c95;
+    font-size: 12px;
+    white-space: nowrap;
+}
+@mixin font-weight-color {
+    font-family: "Inter";
+    font-weight: 600;
+    color: #3b3a40;
+}
+.card-first-logo {
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+.card-name {
+    align-self: center;
+    font-size: 18px;
+    @include font-weight-color;
+}
+.card-icon {
+    align-self: center;
+}
+
+.card-rating-num {
+    @include card-style;
+}
+
+.pale-sentences {
+    @include grey-lines;
+}
+.card-title {
+    @include font-weight-color;
+}
+.card-text {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: #3b3a40;
+}
+
+.result-card-btns {
+    margin-left: 10px;
+}

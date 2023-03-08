@@ -1,0 +1,43 @@
+#main-footer {
+    overflow: hidden;
+    .footer-wrapper {
+        margin: 20px;
+        display: flex;
+        .footer-style {
+            font-size: 12px;
+            color: #64626a;
+            margin-left: auto;
+            .footer-links-style {
+                text-decoration: none;
+                color: #64626a;
+            }
+        }
+        .icon-btn {
+            margin-left: 5px;
+        }
+        #twit-icon {
+            background: #55acee;
+            border-style: none;
+        }
+        #face-icon {
+            background: #3b5998;
+            border-style: none;
+        }
+        #linkedin-icon {
+            background: #0976b4;
+            border-style: none;
+        }
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .footer-wrapper
+    {
+        margin: 10px;
+        flex-direction:column;
+    }
+}
+

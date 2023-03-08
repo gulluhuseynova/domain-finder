@@ -1,0 +1,132 @@
+.main-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+}
+.main-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.main-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #222930;
+    text-align: center;
+}
+.resources-btn {
+    background: white;
+    color: #222930;
+    border: 2px solid #52ab84;
+    font-family: "Inter", sans-serif;
+    &:hover {
+        background: white;
+        color: #222930;
+        border: 2px solid #52ab84;
+    }
+}
+.search-bar {
+    max-width: 100%;
+    display: flex;
+}
+
+.form-control {
+    border: 2px solid #52ab84;
+}
+
+.main-girl-section {
+    margin-bottom: 100px;
+    display: flex;
+
+    .first-text-left {
+        margin-bottom: 20px;
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .text-left {
+        text-align: left;
+    }
+}
+
+.top-search {
+    align-self: center;
+    color: #222930;
+    font-weight: 600;
+    font-family: "Inter";
+    font-size: 10px;
+}
+
+.dropdown-label {
+    margin: 20px 10px 10px 10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.fg--search {
+    background: white;
+    position: relative;
+    width: 500px;
+}
+
+.fg--search input {
+    width: 100%;
+    display: block;
+}
+
+.fg--search button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    z-index: 2;
+}
+
+.fg--search input:focus + button .fa-search {
+    color: green;
+}
+
+// @media only screen and (max-width: 770px) {
+//     .main-girl {
+//         width: 300px;
+//         height: 300px;
+//     }
+//     .main-girl-section {
+//     }
+// }
+
+.home-pa {
+    justify-content: center;
+}
+
+.girl-section-arrows {
+    display: flex;
+}
+.main-girl {
+    width: 100%;
+}
+@media only screen and (max-width: 770px) {
+    .girl-section-arrows {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .input-dropdown-sec {
+        width: 80%;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .input-dropdown-sec {
+        width: 80%;
+        flex-wrap: nowrap;
+    }
+}

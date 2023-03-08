@@ -1,37 +1,18 @@
-import React from "react"
-import "../../assets/scss/Footer.scss"
-
+import React from "react";
+import "../../assets/scss/Footer.scss";
 
 const Footer = () => {
     return (
-        <div
-            className="container"
-            id="main-footer"
-        >
+        <div className="container" id="main-footer">
             <div className="row text-center footer-wrapper">
                 <div className="col col-md-2">
-                    <button
-                        id="twit-icon"
-                        type="button"
-                        className="btn btn-primary rounded-circle icon-btn"
-                        href="#"
-                    >
+                    <button id="twit-icon" type="button" className="btn btn-primary rounded-circle icon-btn" href="#">
                         <i className="fa-brands fa-twitter" />
                     </button>
-                    <button
-                        id="face-icon"
-                        type="button"
-                        className="btn btn-primary rounded-circle icon-btn"
-                        href="#"
-                    >
+                    <button id="face-icon" type="button" className="btn btn-primary rounded-circle icon-btn" href="#">
                         <i className="fa-brands fa-facebook-f" />
                     </button>
-                    <button
-                        id="linkedin-icon"
-                        type="button"
-                        className="btn btn-primary rounded-circle icon-btn"
-                        href="#"
-                    >
+                    <button id="linkedin-icon" type="button" className="btn btn-primary rounded-circle icon-btn" href="#">
                         <i className="fa-brands fa-linkedin-in" />
                     </button>
                 </div>
@@ -49,18 +30,12 @@ const Footer = () => {
                 <div className="col-auto lang-selector">
                     <div className="row">
                         <div className="col">
-                            <div
-                                className="footer-style"
-                                style={{ marginLeft: "auto" }}
-                            >
+                            <div className="footer-style" style={{ marginLeft: "auto" }}>
                                 Language :
                             </div>
                         </div>
                         <div className="col">
-                            <select
-                                className="form-select"
-                                style={{ width: "80px" }}
-                            >
+                            <select className="form-select" style={{ width: "80px" }}>
                                 <option defaultValue={"select"} value="1">
                                     EN
                                 </option>
@@ -72,13 +47,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-
-export default Footer
-
-
-
-
-
+export default Footer;

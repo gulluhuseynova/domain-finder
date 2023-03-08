@@ -1,6 +1,5 @@
-import React from "react"
-import "../../assets/scss/NoPage.scss"
-
+import React from "react";
+import "../../assets/scss/NoPage.scss";
 
 const NoPage = () => {
     return (
@@ -25,20 +24,12 @@ const NoPage = () => {
                 </div>
                 <div className="number">4</div>
             </div>
-            <div className="text">
-                Oops. The page you're looking for doesn't exist.
-            </div>
+            <div className="text">Oops. The page you're looking for doesn't exist.</div>
             <a className="button" href="#">
                 Back Home
             </a>
         </div>
-    )
-}
+    );
+};
 
-
-export default NoPage
-
-
-
-
-
+export default NoPage;

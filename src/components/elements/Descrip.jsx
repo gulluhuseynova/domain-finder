@@ -1,11 +1,10 @@
 import images from "../../assets/img";
 
-
 const Description = () => {
     return (
         <div className="text-center main-girl-section">
             <div className="row home-pa">
-                <div className="col-12 col-md-8" style={{alignSelf:"center"}}>
+                <div className="col-12 col-md-8" style={{ alignSelf: "center" }}>
                     <h3 className="row text-left first-text-left">
                         Use Domain Finder to find <br /> unique domains!
                     </h3>
@@ -19,22 +18,18 @@ const Description = () => {
                         </div>
                         <div className="col ">Type to search</div>
 
-
                         <div className="col ">
                             <img src={images.arrow} />
                         </div>
-
 
                         <div className="col ">
                             <img src={images.second} />
                         </div>
                         <div className="col ">Find domains</div>
 
-
                         <div className="col ">
                             <img src={images.arrow}></img>
                         </div>
-
 
                         <div className="col ">
                             <img src={images.third} />
@@ -50,8 +45,3 @@ const Description = () => {
     );
 };
 export default Description;
-
-
-
-
-

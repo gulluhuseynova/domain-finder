@@ -5,7 +5,6 @@ import "../../assets/scss/ResultItem.scss";
 const ResultItem = (props) => {
     let { name, url, title, description, tags, id } = props;
 
-
     return (
         <div className="card mb-5">
             <div className="row container mt-4">
@@ -31,12 +30,10 @@ const ResultItem = (props) => {
                 </a>
             </div>
 
-
             <Link to={`/results/${id}`}>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
                     <p className="card-text">{description}</p>
-
 
                     <div>
                         {tags.map((tag, index) => (
@@ -51,10 +48,4 @@ const ResultItem = (props) => {
     );
 };
 
-
 export default ResultItem;
-
-
-
-
-

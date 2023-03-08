@@ -1,11 +1,9 @@
 @import "bootstrap";
 
-
 .nav-style {
     background-color: #52ab84;
     height: 100px;
 }
-
 
 .navbar-expand {
     position: fixed;
@@ -21,7 +19,6 @@
         flex-direction: row-reverse;
     }
 }
-
 
 @include media-breakpoint-up(sm) {
     .mobile-only {

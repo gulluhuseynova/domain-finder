@@ -4,9 +4,8 @@ import arrow from "../img/path.svg";
 import first from "../img/firstbtn.svg";
 import second from "../img/secondbtn.svg";
 import third from "../img/thirdbtn.svg";
-import resultIcon from "../img/icon.png"
-import cardIcon from "../img/resultcardicon.png"
-
+import resultIcon from "../img/icon.png";
+import cardIcon from "../img/resultcardicon.png";
 
 const images = {
     logo,
@@ -16,13 +15,7 @@ const images = {
     second,
     third,
     resultIcon,
-    cardIcon
+    cardIcon,
 };
 
-
 export default images;
-
-
-
-
-

@@ -1,9 +1,10 @@
 import { useState } from "react";
 import ResultItem from "./ResultItem";
+
 const ResultList = () => {
     let [results, setResults] = useState([
         {
-            id:1,
+            id: 1,
             name: "Adobe",
             url: "https://www.adobe.com",
             title: "Adobe: Creative, marketing and document management ...",
@@ -12,7 +13,7 @@ const ResultList = () => {
             tags: ["adobe", "design", "creative", "designer", "photos", "illustrator"],
         },
         {
-            id:2,
+            id: 2,
             name: "Adobe",
             url: "https://www.adobe.com",
             title: "Adobe: Creative, marketing and document management ...",
@@ -21,7 +22,7 @@ const ResultList = () => {
             tags: ["adobe", "design", "creative", "designer", "photos", "illustrator"],
         },
         {
-            id:3,
+            id: 3,
             name: "Adobe",
             url: "https://www.adobe.com",
             title: "Adobe: Creative, marketing and document management ...",
@@ -30,7 +31,7 @@ const ResultList = () => {
             tags: ["adobe", "design", "creative", "designer", "photos", "illustrator"],
         },
         {
-            id:4,
+            id: 4,
             name: "Adobe",
             url: "https://www.adobe.com",
             title: "Adobe: Creative, marketing and document management ...",

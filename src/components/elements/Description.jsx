@@ -19,7 +19,7 @@ const Description = () => {
                         <div className="col ">Type to search</div>
 
                         <div className="col ">
-                            <img src={images.arrow} />
+                            <img className="rotate-arrow" src={images.arrow} />
                         </div>
 
                         <div className="col ">
@@ -28,7 +28,7 @@ const Description = () => {
                         <div className="col ">Find domains</div>
 
                         <div className="col ">
-                            <img src={images.arrow}></img>
+                            <img className="rotate-arrow" src={images.arrow}></img>
                         </div>
 
                         <div className="col ">

@@ -27,23 +27,47 @@
     align-self: center;
 }
 
-.card-rating-num {
-    @include card-style;
-}
-
 .pale-sentences {
     @include grey-lines;
 }
 .card-title {
     @include font-weight-color;
 }
-.card-text {
-    font-family: "Inter";
-    font-size: 14px;
-    font-weight: 400;
-    color: #3b3a40;
-}
+.card-rating-num {
+    @include card-style;
+    .card-text {
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        color: #3b3a40;
+    }
 
-.result-card-btns {
-    margin-left: 10px;
+    .result-card-btns {
+        margin-left: 10px;
+    }
+
+    .result-search-input {
+        margin-top: -20px;
+    }
+
+    .faded-links {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .result-items {
+        display: inline-block;
+    }
+    .adobe-detail-wrapper {
+        margin-top: 30px;
+        .adobe-detail-style {
+            padding: 0;
+            margin: 7px;
+        }
+        .card-p-0 {
+            padding: 0;
+        }
+    }
+    .adobe-detail-a-tag {
+        padding-left: 20px;
+    }
 }

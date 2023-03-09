@@ -26,9 +26,9 @@ const SearchBar = () => {
                     <input type="checkbox" id="scales" name="scales" defaultChecked />
                 </div>
             </ul>
-            <div style={{ border: "2px solid #52ab84" }} className="form-group fg--search">
-                <input style={{ border: "none" }} type="text" className="form-control" placeholder="Search" />
-                <button style={{ padding: "0", marginRight: "5px" }} onClick={openResults} type="submit">
+            <div className="form-group fg--search">
+                <input className="form-control" type="text" placeholder="Search" />
+                <button className="search-icon-btn" onClick={openResults} type="submit">
                     <i className="fa fa-search" />
                 </button>
             </div>

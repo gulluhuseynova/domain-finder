@@ -6,7 +6,7 @@ const ResultItem = (props) => {
     let { name, url, title, description, tags, id } = props;
 
     return (
-        <div className="card mb-5">
+        <div className="card mb-5" style={{ marginTop: "30px" }}>
             <div className="row container mt-4">
                 <div className="col card-first-logo">
                     <img src={images.resultIcon} width="25px" height="25px" />

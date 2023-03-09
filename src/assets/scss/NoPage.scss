@@ -125,24 +125,6 @@ a {
     }
 }
 
-@keyframes eye {
-    0% {
-        height: 0.8rem;
-    }
-    50% {
-        height: 0.8rem;
-    }
-    52% {
-        height: 0.1rem;
-    }
-    54% {
-        height: 0.8rem;
-    }
-    100% {
-        height: 0.8rem;
-    }
-}
-
 .rosyCheeks {
     position: absolute;
     top: 1.6rem;
@@ -198,4 +180,22 @@ a {
 
 .byLink {
     color: $green;
+}
+
+@keyframes eye {
+    0% {
+        height: 0.8rem;
+    }
+    50% {
+        height: 0.8rem;
+    }
+    52% {
+        height: 0.1rem;
+    }
+    54% {
+        height: 0.8rem;
+    }
+    100% {
+        height: 0.8rem;
+    }
 }

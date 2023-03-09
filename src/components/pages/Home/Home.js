@@ -1,23 +1,16 @@
-import "../../../assets/scss/Home.scss"
-import Description from "../../elements/Descrip"
-import SearchBar from "../../elements/SearchBar"
-
+import "../../../assets/scss/Home.scss";
+import Description from "../../elements/Description";
+import SearchBar from "../../elements/SearchBar";
 
 const Home = () => {
     return (
         <div className="container">
             <div className="row main-input-section">
                 <div className="col-auto">
-                    <h3 className="main-title">
-                        Use Domain Finder to find unique domains!
-                    </h3>
+                    <h3 className="main-title">Use Domain Finder to find unique domains!</h3>
                     <p className="main-description">
-                        Millions of people are searching for companies, domains,
-                        meta tags, company names and etc.,
-                        <br /> on Domain finder. Try today! <b>
-                            1 000 000
-                        </b>{" "}
-                        data for your search.
+                        Millions of people are searching for companies, domains, meta tags, company names and etc.,
+                        <br /> on Domain finder. Try today! <b>1 000 000</b> data for your search.
                     </p>
                     <SearchBar />
                     <div className="row top-searches">
@@ -56,12 +49,8 @@ const Home = () => {
                 </div>
             </div>
 
-
             <Description />
         </div>
-    )
-}
-export default Home
-
-
-
+    );
+};
+export default Home;

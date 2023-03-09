@@ -1,0 +1,10 @@
+.tabs-position {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .tab-position {
+        position: absolute;
+        bottom: 180px;
+    }
+}

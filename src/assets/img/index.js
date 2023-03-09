@@ -6,6 +6,7 @@ import second from "../img/secondbtn.svg";
 import third from "../img/thirdbtn.svg";
 import resultIcon from "../img/icon.png";
 import cardIcon from "../img/resultcardicon.png";
+import aboutImg from "../img/aboutHeadImg.png";
 
 const images = {
     logo,
@@ -16,6 +17,7 @@ const images = {
     third,
     resultIcon,
     cardIcon,
+    aboutImg,
 };
 
 export default images;

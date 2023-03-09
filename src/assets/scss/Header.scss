@@ -4,7 +4,6 @@
     background-color: #52ab84;
     height: 100px;
 }
-
 .navbar-expand {
     position: fixed;
     top: 0;
@@ -14,6 +13,17 @@
     z-index: 1;
     align-items: flex-start;
 }
+.header-links-style {
+    width: 200px;
+}
+
+.color-dark {
+    color: black;
+}
+.color-light {
+    color: white;
+}
+
 @include media-breakpoint-down(lg) {
     .navbar-mobile {
         flex-direction: row-reverse;
@@ -25,8 +35,3 @@
         display: none;
     }
 }
-
-
-
-
-

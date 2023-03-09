@@ -25,7 +25,7 @@ const NoPage = () => {
                 <div className="number">4</div>
             </div>
             <div className="text">Oops. The page you're looking for doesn't exist.</div>
-            <a className="button" href="#">
+            <a className="button" href="/">
                 Back Home
             </a>
         </div>

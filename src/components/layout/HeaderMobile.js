@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const HeaderMobile = () => {
-  return (
-    <div>HeaderMobile</div>
-  )
-}
+    return <div>HeaderMobile</div>;
+};
 
-export default HeaderMobile
+export default HeaderMobile;

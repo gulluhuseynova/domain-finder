@@ -6,7 +6,6 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 const Header = () => {
     let location = useLocation();
     let { pathname } = location;
-
     return (
         <div className={pathname === "/" ? "bg-white" : "nav-style"}>
             <div className="container">
@@ -38,14 +37,14 @@ const Header = () => {
                             </ul>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" aria-current="page" to="/about">
+                                    <NavLink className={pathname === "/" ? "color-dark" : "color-light"} aria-current="page" to="/about">
                                         About us
                                     </NavLink>
                                 </li>
                             </ul>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" aria-current="page" to="/fordevelopers">
+                                    <NavLink className={pathname === "/" ? "color-dark" : "color-light"} aria-current="page" to="/fordevelopers">
                                         For Developers
                                     </NavLink>
                                 </li>

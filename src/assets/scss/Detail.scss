@@ -1,0 +1,31 @@
+.similar-content {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3b3a40;
+}
+.registrar-sec {
+    margin-top: 30px;
+    padding: 35px;
+    .registrar-title {
+        color: #3b3a40;
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .registrar-link {
+        color: #3b3a40;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 770px) {
+    .first-row-position {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .col-position {
+        flex-basis: auto;
+        width: 100%;
+    }
+}

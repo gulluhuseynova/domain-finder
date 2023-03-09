@@ -1,0 +1,17 @@
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.filter-label-size {
+    font-size: 10px;
+}
+@media only screen and (max-width: 995px) {
+    .hidden-filter {
+        display: none;
+    }
+}

@@ -33,19 +33,17 @@
 .card-title {
     @include font-weight-color;
 }
+.card-text {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: #3b3a40;
+}
 .card-rating-num {
     @include card-style;
-    .card-text {
-        font-family: "Inter";
-        font-size: 14px;
-        font-weight: 400;
-        color: #3b3a40;
-    }
-
     .result-card-btns {
         margin-left: 10px;
     }
-
     .result-search-input {
         margin-top: -20px;
     }
